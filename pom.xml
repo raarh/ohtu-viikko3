@@ -111,6 +111,14 @@
                     </storyReport>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.10</version>
+                <configuration>
+                    <configLocation>checks.xml</configLocation>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
