@@ -1,8 +1,10 @@
 
 package ohtu.io;
 
-import java.util.Scanner;
+import org.springframework.stereotype.Component;
 
+import java.util.Scanner;
+@Component
 public class ConsoleIO implements IO {
     private Scanner scanner = new Scanner(System.in);
     
